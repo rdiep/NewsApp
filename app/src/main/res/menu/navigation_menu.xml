@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/news_stations"
+            android:title="News Stations"
+            android:icon="@drawable/baseline_radio_white_24dp"/>
+
+        <item android:id="@+id/entertainment"
+            android:title="Entertainment"
+            android:icon="@drawable/baseline_tv_white_24dp"/>
+
+        <item android:id="@+id/business"
+            android:title="Business"
+            android:icon="@drawable/baseline_attach_money_white_24dp"/>
+    </group>
+</menu>
